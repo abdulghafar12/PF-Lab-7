@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{        // lab 7 Task 5
+
+    int A[10] , count=0 , posit=0 , negati=0;
+    int even=0 , odd =0 , zero ;
+    for(int i=0; i<10; i++)
+    {
+    cout<<"Enter the number :"<<i+1<<"  :";
+    cin>>A[i];
+    cout<<endl;
+    if(A[i]>0)
+    posit++;
+    if(A[i]<0)
+    negati++;
+    if(A[i]==0)
+    zero++;
+    if(A[i]%2==0)
+    even++;
+    if(A[i]%2==!0)
+    odd++;
+    }
+   cout<<"Ther are :"<<posit<<" :positive numbers"<<endl;
+   
+     cout<<"Ther are :"<<negati<<" :Negative numbers"<<endl;
+     
+     cout<<"Ther are :"<<even<<" :Even numbers"<<endl;
+     
+     cout<<"Ther are :"<<odd<<" :Odd numbers"<<endl;
+     
+     cout<<"Ther are :"<<zero<<" :Zero numbers"<<endl;
+     
+    return 0;
+}
