@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int array[ ]={};  //lab 7 task 1
+	int arrays;
+	cout<<"Enter the size of array that u want :";
+	cin>>arrays;
+	for(int i =0; i<arrays; i++){
+	cout<<"Enter the value to store in array :  "<<i+1<<endl;
+	  }
+	  cout<<endl;
+	for(int j=0; j<arrays;j++){
+	cin>>array[j];
+	}
+	cout<<endl;
+	cout<<"The values stored in array are: "<<endl;
+	for(int k=0; k<arrays; k++)
+	cout<<array[k]<<endl;
+	
+	
+	return 0;
+}
