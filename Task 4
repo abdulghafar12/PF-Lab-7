@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{        // lab 7 Task 4
+    int A[10] ;
+    for(int i=0; i<10; i++)
+    {
+    cout<<"Enter the number :"<<i+1<<"  :";
+    cin>>A[i];
+    cout<<endl;
+    }
+   cout<<"The numbers are in reverse order\n";
+     for(int i=9; i>=0; i--){
+     cout<<A[i];
+     cout<<endl;
+     }
+    return 0;
+}
